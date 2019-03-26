@@ -1,6 +1,6 @@
-#Conocimientos básicos en programación.
+# Conocimientos básicos en programación.
 
-##Prueba 1 26.03.2019
+## Prueba 1 26.03.2019
 
 Crea las carpetas src/prueba/ y build/
 
