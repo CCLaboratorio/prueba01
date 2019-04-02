@@ -11,14 +11,19 @@ tiene el mes en el año seleccionado.
 
 Ejercicio 2 . Crea un método llamado **_sumaCaracteres_** que reciba una
 cadena y devuelva el resultado de la suma de los caracteres que la componen. Pista: para saber el
-valor nmérico de un caracter basta con hacer un casting, por ejemplo _(int) 'a' -> 97_
+valor nmérico de un caracter basta con hacer un casting, por ejemplo:
 
-Ejercicio 3 . Crea un método llamado **_convierteABinario_** que reciba un entero y devuelva una cadena
-o un número que represente el entero ingresado en base binaria.
+_int valor = (int) 'a'; //valor tendría almacenado 97_
+
+Ejercicio 3 . Crea un método llamado **_convierteABinario_** que reciba un entero en base 10 y devuelva una cadena
+o un número que represente el entero ingresado en base binaria. Pista: antes de codificar repasa el algoritmo, uno va
+obteniendo 0 ó 1, manejalos como cadenas y concatena convenientemente, si no entiendes la pista, ten en cuenta que puede haber más de una solución.
 
 Ejercicio 4 . Incluye en el menú de la prueba 1 los métodos creados, como no deben ser estáticos, 
 no olvides crear un objeto para poder utilizarlos.
 
-Ejemplo de uso de la clase Prueba02
+Ejemplo de uso de la clase Prueba02:
+
 _Prueba02 objeto = new Prueba02();_
+
 _int suma = objeto.sumaCaracteres("aprobado");_
