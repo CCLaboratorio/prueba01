@@ -2,24 +2,23 @@
 
 #### Prueba 2 02.04.2019
 
-Crea las carpetas src/prueba/ y dentro incluye el archivo Prueba02.java donde
-incluyas las soluciones a los problemas.
+En la carpeta prueba incluye el archivo Prueba02.java, en dicho archivo debes implementar
+las soluciones a los problemas.
 
 Ejercicio 1 . Crea un método llamado **_calculaDias_** que reciba como
-parámetro una cadena _mes_ y un entero _anio_, y devuelva el número de días que
-el _mes_ tiene en el año seleccionado.
+parámetro una cadena (_mes_) y un entero (_anio_), y que devuelva el número de días que
+tiene el mes en el año seleccionado.
 
-Ejercicio 2 . Crea un método llamado **_encuetraOcurrencias_** que reciba una
-cadena y un caracter e imprima en pantalla los índices donde se encotró la
-coincidencia.
+Ejercicio 2 . Crea un método llamado **_sumaCaracteres_** que reciba una
+cadena y devuelva el resultado de la suma de los caracteres que la componen. Pista: para saber el
+valor nmérico de un caracter basta con hacer un casting, por ejemplo _(int) 'a' -> 97_
 
-Ejercicio 3 . Crea un método estático **_evaluaImplicacionLogica_** que reciba dos valores booleanos y
-devuelva el resultado de aplicarles la implicación lógica.
+Ejercicio 3 . Crea un método llamado **_convierteABinario_** que reciba un entero y devuelva una cadena
+o un número que represente el entero ingresado en base binaria.
 
-Ejercicio 4 . Crea un método llamado **_menu_** que permita ver en pantalla
-los métodos disponibles en la clase, además en el método main debes llamarlo
-y permitir el uso de estos.
+Ejercicio 4 . Incluye en el menú de la prueba 1 los métodos creados, como no deben ser estáticos, 
+no olvides crear un objeto para poder utilizarlos.
 
-Ejercicio 5 . Usando un estructura cíclica permite al usuario dentro de método
-main volver al **_menu_** para ejecutar nuevamente una de las opciones disponibles
-hasta que decida salir de tu aplicación.
+Ejemplo de uso de la clase Prueba02
+_Prueba02 objeto = new Prueba02();_
+_int suma = objeto.sumaCaracteres("aprobado");_
